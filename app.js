@@ -57,7 +57,7 @@ $(function(){
         success: function(data){
           console.log(data);
           $('div[donut-data-id="'+DonutId+'"] > p:eq(1)').text('Style:'+data.style);  //pass the donutId here. now we look for div container with this id, append style data to the SECOND paragraph we find in this div. First paragraph contains the ID
-          $('div[donut-data-id="'+DonutId+'"] > p:eq(2)').text('Favor:'+data.flavor); //pass the donutId here. now we look for div container with this id, append style data to the THIRD paragraph we find in this div
+          $('div[donut-data-id="'+DonutId+'"] > p:eq(2)').text('Favor:'+data.flavor); //pass the donutId here. now we look for div container with this id, append flavor data to the THIRD paragraph we find in this div
           $('#edit').hide(); //after we hit the save button, hide the edit form
         }
       });
