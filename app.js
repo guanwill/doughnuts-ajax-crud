@@ -63,7 +63,7 @@ $(function(){
       });
     });
 
-    //-----DELETE DONUT-----
+    //-----CREATE DONUT-----
     $('#new').on('click', function(){
       $('#new-form').show();  //when you click on the new button, the new form appears
       $('#create-donut').on('click', function(){ //when you hit the create button.....
